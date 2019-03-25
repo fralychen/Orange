@@ -14,7 +14,7 @@ FILENAME = open("cookie.txt", 'w+')
 filename = 'cookie.txt'
 
 def GetCookie():
-    url = 'http://61.183.11.150/index.php'
+    url = ''
     file=urllib.request.urlopen(url)
     #print(file.getcode)
     message = file.info()
