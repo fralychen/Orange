@@ -9,12 +9,6 @@ port = 22
 user = os.getenv('USER')
 passwd = os.getenv('PASSWORD') 
 
-print(ip)
-print(port)
-print(passwd)
-print(user)
-
-#cmd = 'dis ip pool interface vlanif1 used                                                                                                    '
 cmd = 'pwd'
 
 s = SSHClient()
